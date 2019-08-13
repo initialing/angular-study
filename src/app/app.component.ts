@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-study';
+  handleClick($event){
+    console.log('f**k',$event)
+  }
 }
